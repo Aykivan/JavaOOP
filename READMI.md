@@ -1,6 +1,6 @@
 # OOP
 
-## Lecture 1 
+## Lecture 1 / Lesson 007
 
 ### **Введение**
 
