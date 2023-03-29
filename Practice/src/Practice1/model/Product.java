@@ -1,6 +1,6 @@
-package Practice1.cw1.model;
+package Practice1.model;
 
-public class Product {
+public abstract class Product {
     private String name;
     private Double cost;
 
