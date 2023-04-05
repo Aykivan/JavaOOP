@@ -1,6 +1,7 @@
 package cw;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class DogShelter extends AnimalShelter{
@@ -12,6 +13,10 @@ public class DogShelter extends AnimalShelter{
 
     public void addDog(Animal cat) {
         dogsList.add(cat);
+    }
+
+    public void sort(AnimalComparator comparator) {
+        Collections.sort(dogsList, comparator);
     }
 
     public void print() {

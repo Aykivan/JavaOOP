@@ -7,6 +7,6 @@ public class Cat extends Animal{
 
     @Override
     public String toString() {
-        return "Cat: " + this.getName() + "| W: " + this.getWeight();
+        return "Cat: " + this.getName() + " || W: " + this.getWeight();
     }
 }

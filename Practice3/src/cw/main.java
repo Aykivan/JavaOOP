@@ -1,10 +1,14 @@
 package cw;
 
+import java.util.Collection;
+import java.util.Collections;
+import java.util.List;
+import java.util.TreeSet;
+
 /**
  * Создать классы cat и dog
  * Для них создать класс AnimalShelter с наследниками для cat и dog
  * Добавить возможность сравнения животных между собой и итерации по ним.
- * Остановился на 1:38:55
  */
 
 public class main {
@@ -21,5 +25,13 @@ public class main {
         System.out.println();
         dogShelter.print();
 
+        catShelter.sort(new AnimalComparator());
+        dogShelter.sort(new AnimalComparator());
+
+        System.out.println("--------------------------------------");
+
+        catShelter.print();
+        System.out.println();
+        dogShelter.print();
     }
 }
