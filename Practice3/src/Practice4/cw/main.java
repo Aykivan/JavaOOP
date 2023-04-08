@@ -10,7 +10,5 @@ public class main {
         mypets.addPet(mydog);
 
         System.out.println(mypets);
-
-        // 59:00 zip archive
     }
 }

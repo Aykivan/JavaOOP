@@ -1,0 +1,9 @@
+package Practice4.oseminar.controller;
+
+import Practice4.oseminar.data.User;
+
+import java.time.LocalDate;
+
+public interface UserController<T extends User>{
+    void create(String firstName, String secondName, String patronymic, String dateOfBirth);
+}
