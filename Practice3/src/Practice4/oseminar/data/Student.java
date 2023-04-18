@@ -13,7 +13,6 @@ public class Student extends User implements Comparable<Student>{
         super(firstName, secondName, patronymic, dateOfBirth);
         this.studentId = studentId;
     }
-
     public Long getStudentId() {
         return studentId;
     }
